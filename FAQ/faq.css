@@ -1,0 +1,254 @@
+
+
+.main-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    top: 63px;
+    left: 260px;
+    margin-left:210px;
+    margin-right:15px
+}
+
+.main-menu-1 a {
+     text-decoration: none;
+     color: black;
+     padding: 10px;
+     transition: color 0.3s ease;
+     font-size:20px;
+ }
+
+.main-menu-1 a:hover {
+     color: darkgoldenrod;
+    }
+
+
+hr {
+    border: none;
+    border-top: 2px solid darkgoldenrod;
+}
+
+
+.hr1 {
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+
+.hr2 {
+    margin-left: 170px;
+    margin-top: 3px;
+}
+
+.container {
+    border-radius: 0px;
+    background-color: #7b8f95;
+	padding-top : 20px;
+	padding-bottom: 20px;
+	padding-right : 20px;
+    padding-left: 800px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+   height: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 3px solid rgb(3, 3, 3);
+    border-radius: 5px;
+
+}
+
+.user-picture {
+    width: 30px;
+    height: 30px;
+    background-image: url('user.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 400px;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.faq-heading {
+    color: darkgoldenrod;
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+}
+
+.faq-page {
+
+    color: black;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+.faq-body {
+    margin: auto;
+
+    width: 50%;
+    padding: auto;
+    color: white;
+    padding: 0 18px;
+    background-color: darkgoldenrod;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+   
+}
+
+
+/**Footer**/
+
+
+.footer {
+    position: relative;
+    background-image: url('image1.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.logo2 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+}
+
+.rights {
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 5px
+}
+
+.footer-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-right: 800px;
+    padding-top: 55px;
+}
+
+    .footer-menu-1 a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        transition: color 0.3s ease;
+        font-size: 14px;
+    }
+
+        .footer-menu-1 a:hover {
+            color: darkgoldenrod;
+        }
+
+.footer-form {
+    position: absolute;
+    top: 30px;
+    margin-left: 60%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px
+}
+
+    .footer-form input[type="email"] {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .footer-form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: darkgoldenrod;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.footer-menu-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 890px;
+    margin-right: 800px;
+    margin-top: 20px
+}
+
+    .footer-menu-2 a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        transition: color 0.3s ease;
+        font-size: 14px
+    }
+
+        .footer-menu-2 a:hover {
+            color: darkgoldenrod;
+        }

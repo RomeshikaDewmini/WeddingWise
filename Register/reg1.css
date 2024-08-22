@@ -1,0 +1,395 @@
+
+/* CSS styling for the page */
+.main-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    top: 63px;
+    left: 260px;
+    margin-left:210px;
+    margin-right:15px
+}
+
+.main-menu-1 a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    padding: 10px;
+    transition: color 0.3s ease;
+    font-size:20px
+    
+}
+
+.main-menu-1 a:hover {
+    color: darkgoldenrod;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid darkgoldenrod;
+}
+
+.hr1 {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+.hr2 {
+    margin-left: 190px;
+    margin-top: 3px;
+}
+
+
+        .backimg
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-size: 100% ;
+            background-position: center;
+            
+            
+        }
+
+        
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: rgb(246, 245, 245);
+            display: inline-block;
+            padding: 10px 10px;
+            border: 3px solid rgb(252, 249, 249);
+            border-radius: 5px;
+
+        }
+
+        /* User Picture */
+        .user-picture {
+            width: 30px;
+            height: 30px;
+            /* Add your user picture image URL here */
+            background-image: url('user.jpeg');
+            background-size: cover;
+            border-radius: 50%;
+            margin-right: 400px;
+        }
+
+        .login-button {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Form */
+        .registration-form {
+            margin: 50px auto;
+            margin-left: 120px auto;
+            width: 400px;
+            padding: 90px;
+            
+            float:center;
+            background-color: rgba(204, 199, 193, 0.819);
+            border-radius: 15px;
+            box-shadow: 10px 2px 30px rgba(0, 0, 0, 0.5);
+            padding-right: 50%;
+        }
+
+        .subbtn {
+            background-color: rgb(22, 189, 69);
+            border-radius: 15px;
+            width: 10px;    /* Adjust the width as needed */
+            height: 35px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-style:bold;
+            box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.5);
+
+            
+        }
+
+
+        .registration-form label,
+        .registration-form input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .registration-form input {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .registration-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+
+        input[type="submit"]{
+
+            display:block;
+            margin:auto;
+            margin-top:20px;
+            background-color:#0066CC;
+            border:none;
+            color:white;
+            padding:0.5rem 1.2rem;
+            text-align:center;
+            font-size:1rem;
+            border-radius:15px;
+            cursor:pointer;
+           
+            
+        }
+
+
+        input[type="submit"]:hover {
+
+            background-color:rgb(12, 180, 12);
+        }
+
+        .social-buttons {
+            width: 60%;
+            
+            float: right;
+            text-align: center;
+            padding-top: 200px;
+            /*background-color: rgba(204, 199, 193, 0.715);*/
+            margin-top: 42px;
+            position: absolute;
+            top:120px;
+            right:10px;
+            
+        }
+
+        .social-buttons button {
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            background-color: #ccc;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        .social-buttons button.google {
+            background-color: #db4a39;
+            
+        }
+
+        .social-buttons button.facebook {
+            background-color: #3b5998;
+        }
+
+        .social-buttons button.twitter {
+            background-color: #1da1f2;
+        }
+
+
+
+         /*Register with */
+        .register-with {
+            width: 50%;
+            float: left;
+            padding-top: 15px;
+            margin-left: 100px;
+        }
+
+        
+        .register-box {
+            /*border: 2px solid;*/
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        .register-box button {
+            display:flexbox;
+            width: 30%;
+            margin-bottom: 10px;
+        }
+
+
+        
+        @keyframes blink {
+    
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        .animi {
+            animation: blink 2s infinite;
+            position: absolute;
+            top: 200px;
+            left: 740px;
+            width: 150px;
+            height: auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: darkgoldenrod;
+            font-size: 40px;
+        }
+          
+        
+
+        .footer {
+            position: relative;
+            background-image: url('image1.png');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 20px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: left;
+            margin-left: 100px;
+        }
+        
+        .logo2 {
+            position: absolute;
+            top: 60px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+        
+        .rights {
+            text-align: center;
+            margin-left: 100px;
+            padding-top: 5px
+        }
+        
+        .footer-menu-1 {
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            margin-left: 0px;
+            margin-right: 800px;
+            padding-top: 55px;
+        }
+        
+            .footer-menu-1 a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+                transition: color 0.3s ease;
+                font-size: 14px
+            }
+        
+                .footer-menu-1 a:hover {
+                    color: darkgoldenrod;
+                }
+        
+        .footer-form {
+            position: absolute;
+            top: 30px;
+            margin-left: 60%;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px
+        }
+        
+        
+        
+        .footer-form input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-left: 1px
+        }
+    
+        .footer-form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: darkgoldenrod;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-left: 250px;
+        }
+        
+        
+        .footer-menu-2 {
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            margin-left: 800px;
+            margin-right: 800px;
+            margin-top: 20px
+        }
+        
+            .footer-menu-2 a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+                transition: color 0.3s ease;
+                font-size: 14px
+            }
+        
+                .footer-menu-2 a:hover {
+                    color: darkgoldenrod;
+                }
+        
+        
+        
+       @keyframes fadeIn {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+
+        
+            body {
+             animation-name: fadeIn;
+             animation-duration: 1s;
+        }
+
+        .accbtn {
+            display:block;
+            margin:auto;
+            margin-top:10px;
+            background-color:#777b7e;
+            border:none;
+            color:white;
+            padding:0.5rem 1.2rem;
+            text-align:center;
+            font-size:1rem;
+            border-radius:5px;
+            cursor:pointer;
+            float: right;
+                       
+         }
+
+        .accbtn:hover {
+
+            background-color:rgb(12, 180, 12);
+        }

@@ -1,0 +1,263 @@
+body {
+  background-image: url('background2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+  }
+  .main-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    top: 63px;
+    left: 260px;
+    margin-left:210px;
+    margin-right:15px;
+    }
+
+
+    .main-menu-1 a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    transition: color 0.3s ease;
+    font-size:20px;
+    
+    }
+    .main-menu-1 a:hover {
+    color: darkgoldenrod;
+    }
+
+/*horizontel line*/
+hr {
+  border: none;
+  border-top: 2px solid darkgoldenrod;
+  }
+.hr1 {
+  margin-left: 190px;
+  margin-top: 50px;
+  }
+
+.hr2 {
+  margin-left: 190px;
+  margin-top: 3px;
+  }
+  
+  .login-container {
+    position:relative;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(216, 220, 220, 0.849);
+    backdrop-filter: blur 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 4px solid rgba(116, 5, 87, 0.5);
+   
+  
+  }
+
+
+  
+  h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#350110;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color:  rgba(244, 244, 238, 0.505);;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #b6a12a;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #5f5f5d;
+  
+  }
+   
+ 
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border: 3px solid #580439;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color:rgb(46, 6, 46);
+    color:whitesmoke;
+    border-color:black;
+    border-width: 3px;
+    border-radius: 4px;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:rgb(171, 146, 5);
+  }
+
+  .remember{
+    font-size: .9em;
+    color: #24171f;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+
+  .remember label input{
+    accent-color:rgb(134, 114, 114) ;
+    margin-right:3px;
+  }
+
+  .remember a{
+    accent-color: rgb(152, 152, 195);
+    text-decoration:none;
+  }
+
+  .remember a:hover{
+    text-decoration: underline;
+  }
+
+  .signup{
+    font-size: .9em;
+    color: #24171f;
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+   
+  }
+
+  .signup label input{
+    accent-color:rgb(6, 6, 6) ;
+    margin-right:3px;
+  }
+
+/* Footer */
+
+.footer {
+  position:relative;
+  background-image: url('image1.png');
+  background-size: cover;
+  background-position: center;
+  background-color: whitesmoke;
+  color: black;
+  padding: 20px;
+  margin-top: 100px;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.logo2 {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 80px;
+  height: auto;
+}
+
+.rights {
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 5px
+}
+
+.footer-menu-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-left: 0px;
+  margin-right: 800px;
+  padding-top: 55px;
+}
+
+  .footer-menu-1 a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      transition: color 0.3s ease;
+      font-size: 14px
+  }
+
+      .footer-menu-1 a:hover {
+          color: darkgoldenrod;
+      }
+
+.footer-form {
+  position: absolute;
+  top: 30px;
+  margin-left: 60%;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 14px
+}
+
+
+
+  .footer-form input[type="email"] {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+
+  .footer-form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: darkgoldenrod;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+  }
+
+
+.footer-menu-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-top: 20px
+}
+
+  .footer-menu-2 a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      transition: color 0.3s ease;
+      font-size: 14px
+  }
+
+      .footer-menu-2 a:hover {
+          color: darkgoldenrod;
+      }
+
+
+
+
+
+

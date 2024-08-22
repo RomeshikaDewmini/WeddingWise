@@ -1,0 +1,127 @@
+
+.profile-container 
+{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greeting {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .first-name {
+    font-size: 20px;
+  }
+
+  .container{
+    background: #fff;
+    width:40%;
+    height: 700px;
+    margin: 0;
+    position: relative;
+    margin-top:70px;
+    left: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(119,119,119,.5);
+  }
+
+/*Fieldset*/
+.fieldset1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    width: 35%;
+    height: auto;
+    margin: 5px;
+    position: absolute;
+    top: 260px;
+    right: 190px;
+    box-shadow: 5px 10px 20px rgba(119,119,119,.5);
+    border-radius: 10px;
+}
+.fieldset2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin-top: 10px;
+    position: absolute;
+    top: 540px;
+    right: 192px;
+    width: 35%;
+    height: auto;
+    box-shadow: 5px 10px 20px rgba(119,119,119,.5);
+    border-radius: 10px;
+}
+
+#passwordField 
+{
+    margin-bottom: 10px;
+}
+
+.rounded-input 
+{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+  
+
+p
+{
+    font-size: small;
+    margin: auto;
+}
+
+.btn2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 100px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    font-size: large;
+}
+
+  
+.f-size
+{
+    font-size: small;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+

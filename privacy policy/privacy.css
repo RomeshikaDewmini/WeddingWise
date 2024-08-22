@@ -1,0 +1,208 @@
+body{
+font-family: Arial, sans-serif;
+/* background-image: linear-gradient(to bottom right, white, yellow);*/
+
+ margin: 0;
+ padding: 0;
+ background-image: url('background1.jpg');
+ background-size: cover;
+ background-position: center;
+ font-family: sans-serif;
+ background-blend-mode: blur;
+
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+  }
+
+.main-menu-1 {
+ display: flex;
+ justify-content: space-between;
+ background-color: transparent;
+ top: 63px;
+ left: 260px;
+ margin-left:210px;
+ margin-right:15px
+ 
+ }
+ 
+ .main-menu-1 a {
+  text-decoration: none;
+ color: black;
+ padding: 10px;
+ transition: color 0.3s ease;
+ font-size:20px
+ }
+
+.main-menu-1 a:hover {
+color: darkgoldenrod;
+}
+ 
+ 
+.hr {
+border: none;
+border-top: 2px solid darkgoldenrod;
+}
+  
+.hr1 {
+border-top: 2px solid darkgoldenrod;
+margin-left: 170px;
+margin-top: 50px;
+}
+
+.hr2 {
+border-top: 2px solid darkgoldenrod;
+margin-left: 170px;
+margin-top: 3px;
+}
+
+.privacy-container{
+  position:relative;
+  width: 1000px;
+  height: 2500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(216, 220, 220, 0.849);
+  backdrop-filter: blur 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 4px solid rgba(116, 5, 87, 0.5);
+
+}
+
+.privacy-container h1{
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color:#350110;
+  margin-bottom: 20px;
+}
+
+.privacy-container h2{
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+  color:#2c2124;
+  margin-bottom: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 20px;
+    background-color:whitesmoke;
+    clear: both;
+     /*background-image: linear-gradient(to right, #8e622d, #d02fd0); /* Replace with your desired colors */
+    border: 2px solid #000000;
+    /*opacity: 0.7;*/
+    /*background-image: linear-gradient(to right, #97bdee, #ffffff);*/
+    }
+  
+    .footer {
+    position: relative;
+    background-image: url('image1.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 100px;
+  }
+  
+  .logo2 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+  }
+  
+  .rights {
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 5px
+  }
+  
+  .footer-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-right: 800px;
+    padding-top: 55px;
+  }
+  
+    .footer-menu-1 a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      transition: color 0.3s ease;
+      font-size: 14px
+    }
+  
+  .footer-menu-1 a:hover {
+    color: darkgoldenrod;
+    }
+  
+  .footer-form {
+    position: absolute;
+    top: 30px;
+    margin-left: 60%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px
+  }
+  
+  
+  
+  .footer-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    }
+  
+    .footer-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    }
+  
+  
+  .footer-menu-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 20px
+  }
+  
+  .footer-menu-2 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s ease;
+    font-size: 14px
+  }
+  
+  .footer-menu-2 a:hover {
+    color: darkgoldenrod;
+  }

@@ -1,0 +1,154 @@
+
+<html>
+
+<head>
+    <title>WeddingWise - Registration</title>
+    
+    <link rel = "stylesheet" href = "reg1.css">
+
+    <link rel="icon" type="image/png" href="logoM.png">
+    <script src="func.js"></script>
+
+</head>
+
+<body class="backimg" background="background14.jpg">
+
+   <a href="registerdata.php"> <input type="button" value="User Accounts" name="useracc" class="accbtn"> </a>
+
+
+    <header>
+        <div class="margin">
+
+            <img src="logoM.png" alt="WeddingWise" class="logo" >
+            <a href="homepage1.html"><img src="logoM.png" alt="WeddingWise" class="logo"></a>
+
+
+
+
+            <hr class="hr1">
+
+            <div class="main-menu-1">
+                <a href="../index.php">Login</a>
+                <a href="../homepage.html">Home</a>
+                <a href="../promotion/My Account.php">Promotions</a>
+                <a href="#">Register</a>
+                <a href="../promotion/My Account.php">My Account</a>
+                <a href="../Contact us/Contact.html">Contact Us</a>
+            </div>
+
+            <hr class="hr2">
+
+        </div>
+    </header>
+
+    
+    <div class="registration-form">
+        <h2>Register for WeddingWise</h2>
+        <form action="reg1.php" method="post" onsubmit="return validateForm()">
+            
+            
+
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <!--<label for="lastname">UserName:</label>
+            <input type="text" id="username" name="username" required> -->
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="pass" required>
+
+            <label for="password">Re-Write Password:</label>
+            <input type="password" id="repassword" name="repassword" required>
+            
+           
+            <!--<input type="submit" name = "submitbtn" value="Register" class="subbtn">-->
+            <input type="submit" name="submitbtn" value="Register" class="subbtn">
+            
+            
+
+        
+        </form>
+    </div>
+    
+    <h1 class="animi">Welcome..!!</h1>
+    
+
+    <div class="social-buttons">
+        <div class="register-with">
+            <h3>Register with:</h3>
+            <div class="register-box">
+                <a href="https://www.google.com/"><button class="google">Google</button></a> 
+            </div>   
+            <div class="register-box">   
+                <a href="https://www.facebook.com/"><button class="facebook">Facebook</button></a>
+            </div>
+            <div class="register-box">
+                <a href="https://www.twitter.com/"><button class="twitter">Twitter</button></a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <div class="footer-content">
+
+            <div>
+                <div class="rectangle"></div>
+                <img src="logoM.png" alt="WeddingWise" class="logo2">
+                <div class="footer-menu-1">
+                    <a href="#">Feedbacks</a>
+                    <a href="Terms.html">Terms & Condititons</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">FAQ's</a>
+
+                </div>
+
+                <div class="footer-menu-2">
+                    <a href="https://www.facebook.com/">
+                        <img src="a1.png" width="40" height="40">
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <img src="a3.png" width="40" height="40">
+                    </a>
+
+                    <a href="https://www.instagram.com/">
+                        <img src="a2.png" width="40" height="40">
+                    </a>
+                    <a href="https://www.twitter.com/">
+                        <img src="a4.png" width="40" height="40">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="rights">
+                <center>
+                    <p>&copy; 2023 WeddingWise. All Rights Reserved. </p>
+                </center>
+            </div>
+
+            <div>
+
+                <form class="footer-form">
+                    <input type="email" id="email" name="email" placeholder="Subscribe for Email Letters" required>
+                    <input type="submit" value="Submit">
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+
+</html>
